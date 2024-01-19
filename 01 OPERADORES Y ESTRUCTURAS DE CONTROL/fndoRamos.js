@@ -560,5 +560,5 @@ let y = 2
     y = new String('Hola')
 
     //ejemplos
-    console.log('instanceof:', x instanceof Number)
-    console.log('instanceof:', y instanceof String)
+    console.log('instanceof:', x instanceof Number) // resultado: false
+    console.log('instanceof:', y instanceof String) // resultado: true
